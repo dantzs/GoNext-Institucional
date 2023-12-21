@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
 :root {
     --primary-color:#102D49;
     --secundary-color:#8F9EBA;
@@ -5,14 +14,10 @@
     --action-color-secundary:#E6A040;
 }
 
-p {
-    color: var(--primary-color);
+ul {
+    list-style: none;
 }
 
-.container {
-    margin: 0 115px;
-}
-
-body {
-    background-color: var(--primary-color);
+a{
+    text-decoration: none;
 }
