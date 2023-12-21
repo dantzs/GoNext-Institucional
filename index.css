@@ -31,7 +31,8 @@ footer {
 nav.navegacao a {
     color: white; /* Cor do texto dos links */
     text-decoration: none; /* Removendo sublinhado padrão */
-    font-size: 30   px;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
 
 }
 
