@@ -13,7 +13,9 @@
     --action-color:#8FD1BE;
     --action-color-secundary:#E6A040;
 }
-
+body{
+    background-color: #F3F3F3;
+}
 ul {
     list-style: none;
 }
