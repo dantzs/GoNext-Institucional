@@ -1,0 +1,35 @@
+.text-header{
+    color: #FFF;
+}
+
+
+
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #FFF 2px;
+   
+
+    
+    
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: flex-end
+    
+
+    
+}
+
+.social-icon svg {
+    width: 13.407px;
+    height: 13.415px;
+    
+}

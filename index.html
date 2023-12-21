@@ -2,72 +2,63 @@
 <html lang="pt-br">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Concierge</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Fredoka&family=Inconsolata:wght@500&family=Inria+Sans:ital,wght@1,300&family=Old+Standard+TT:ital@1&family=Playfair+Display:ital@1&family=Roboto+Condensed&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Fredoka&family=Inconsolata:wght@500&family=Inria+Sans:ital,wght@1,300&family=Montserrat:ital,wght@1,200&family=Old+Standard+TT:ital@1&family=Playfair+Display:ital@1&family=Roboto+Condensed&display=swap"
         rel="stylesheet">
+    <title>Site</title>
 
 </head>
 
 <body>
-    <!-------Navegação TOPO------>
-    <nav class="navegacao">
-        <a href="https://www.wanderlustconcierge.com.br/">Inicio</a>
-        <a href="https://www.wanderlustconcierge.com.br/category/all-products">Concierge</a>
-        <a href="https://smart.travellink.com.br/loja/Home/LojaInativa">Passagens, hotéis e carros</a>
-        <a href="https://www.wanderlustconcierge.com.br/clube-de-viagens">Clube Wanderlust </a>
-        <a href="https://www.wanderlustconcierge.com.br/quem-somos">Quem Somos</a>
+    <header>
+
+        <div class="container">
+            <p class="text-header">Lorem ipsum dolor sit, </p>
+            <div class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
+                    <path
+                        d="M3.90352 4.67896H1.29286C1.08174 4.67896 0.90918 4.84948 0.90918 5.06264V13.4935C0.90918 13.7046 1.08174 13.8772 1.29286 13.8772H3.90352C4.11465 13.8772 4.28721 13.7046 4.28721 13.4935V5.06264C4.28721 4.84948 4.11465 4.67896 3.90352 4.67896ZM3.51984 13.1098H1.67654V5.44632H3.51984V13.1098Z"
+                        fill="white" />
+                    <path
+                        d="M13.0956 5.36305C12.4906 4.74591 11.6339 4.41907 10.6169 4.41907C9.59981 4.41907 8.92582 4.7926 8.45891 5.17831V5.06057C8.45891 4.84741 8.28635 4.67689 8.07523 4.67689H5.57216C5.36103 4.67689 5.18848 4.84741 5.18848 5.06057V13.4914C5.18848 13.7025 5.36103 13.8751 5.57216 13.8751H8.07523C8.28635 13.8751 8.45891 13.7025 8.45891 13.4914V9.06588C8.45891 8.06506 8.86492 7.55755 9.66477 7.55755C9.94898 7.55755 10.7021 7.55755 10.7021 9.06588V13.4914C10.7021 13.7025 10.8747 13.8751 11.0858 13.8751H13.6823C13.8934 13.8751 14.0659 13.7025 14.0659 13.4914V8.15235C14.0659 6.97898 13.729 6.0147 13.0935 5.36305H13.0956ZM13.3006 13.1098H11.4695V9.06791C11.4695 7.0886 10.3387 6.79221 9.66477 6.79221C8.42846 6.79221 7.69155 7.64281 7.69155 9.06791V13.1098H5.95584V5.44628H7.69155V6.1974C7.69155 6.37199 7.81132 6.52424 7.97981 6.56687C8.15034 6.60951 8.32696 6.53236 8.41222 6.38011C8.43861 6.33139 9.09026 5.18643 10.6169 5.18643C12.3221 5.18643 13.3006 6.26845 13.3006 8.15235V13.1077V13.1098Z"
+                        fill="white" />
+                    <path
+                        d="M2.5862 0.462524C1.52448 0.462524 0.659668 1.33342 0.659668 2.40327C0.659668 3.47311 1.52448 4.34198 2.5862 4.34198C3.64792 4.34198 4.51273 3.47311 4.51273 2.40327C4.51273 1.33342 3.64995 0.462524 2.5862 0.462524ZM2.5862 3.57461C1.94673 3.57461 1.425 3.04883 1.425 2.40327C1.425 1.75771 1.9447 1.22989 2.5862 1.22989C3.2277 1.22989 3.74536 1.75568 3.74536 2.40327C3.74536 3.05086 3.22567 3.57461 2.5862 3.57461Z"
+                        fill="white" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path
+                        d="M4.23013 0.457275C1.993 0.457275 0.167969 2.2823 0.167969 4.51943V9.8179C0.167969 12.055 1.993 13.8801 4.23013 13.8801H9.5286C11.7657 13.8801 13.5908 12.055 13.5908 9.8179V4.51943C13.5908 2.2823 11.7657 0.457275 9.5286 0.457275H4.23013ZM4.23013 1.51697H9.5286C11.1932 1.51697 12.5311 2.85478 12.5311 4.51943V9.8179C12.5311 11.4826 11.1932 12.8204 9.5286 12.8204H4.23013C2.56547 12.8204 1.22766 11.4826 1.22766 9.8179V4.51943C1.22766 2.85478 2.56547 1.51697 4.23013 1.51697ZM10.4117 2.92989C10.0219 2.92989 9.70521 3.24658 9.70521 3.63636C9.70521 4.02613 10.0219 4.34282 10.4117 4.34282C10.8014 4.34282 11.1181 4.02613 11.1181 3.63636C11.1181 3.24658 10.8014 2.92989 10.4117 2.92989ZM6.87936 3.63636C4.93456 3.63636 3.34705 5.22387 3.34705 7.16867C3.34705 9.11347 4.93456 10.701 6.87936 10.701C8.82416 10.701 10.4117 9.11347 10.4117 7.16867C10.4117 5.22387 8.82416 3.63636 6.87936 3.63636ZM6.87936 4.69605C8.25168 4.69605 9.35198 5.79634 9.35198 7.16867C9.35198 8.54099 8.25168 9.64129 6.87936 9.64129C5.50704 9.64129 4.40674 8.54099 4.40674 7.16867C4.40674 5.79634 5.50704 4.69605 6.87936 4.69605Z"
+                        fill="white" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
+                    <path
+                        d="M12.1883 5.45942L7.38522 2.95432C7.26747 2.89342 7.14161 2.86297 7.01371 2.86297C6.86958 2.86297 6.72545 2.90154 6.59755 2.97868C6.358 3.12485 6.21183 3.38469 6.21183 3.66484V8.67301C6.21183 8.95316 6.358 9.21301 6.59755 9.35917C6.72545 9.43632 6.86958 9.47489 7.01371 9.47489C7.13958 9.47489 7.26747 9.44647 7.38522 9.38353L12.1883 6.87843C12.4543 6.74039 12.6187 6.46633 12.6187 6.16791C12.6187 5.86949 12.4523 5.59543 12.1883 5.45739V5.45942ZM7.01371 8.67504V3.66687L11.8169 6.17197L7.01371 8.67707V8.67504ZM16.5936 2.83049C16.3419 0.686739 15.4913 0.39238 13.8022 0.276666C12.6005 0.193433 10.6577 0.152832 8.71288 0.152832C6.76807 0.152832 4.82936 0.193433 3.62553 0.276666C1.93449 0.39238 1.08592 0.686739 0.834196 2.83049C0.64743 4.42003 0.6454 7.91377 0.834196 9.51143C1.08592 11.6552 1.93652 11.9495 3.62553 12.0652C4.82733 12.1465 6.7701 12.1871 8.71288 12.1871C10.6556 12.1871 12.5984 12.1465 13.8002 12.0652C15.4913 11.9495 16.3398 11.6552 16.5916 9.51143C16.7783 7.91986 16.7803 4.42815 16.5916 2.83049H16.5936ZM15.7978 9.41805C15.674 10.4696 15.4222 10.7782 15.2436 10.9183C14.9574 11.1416 14.4397 11.2187 13.7474 11.2654C12.635 11.3405 10.7531 11.3852 8.71491 11.3852C6.67672 11.3852 4.79486 11.3405 3.68238 11.2654C2.99013 11.2187 2.47246 11.1416 2.18623 10.9183C2.00758 10.7782 1.75584 10.4696 1.63201 9.41805C1.45336 7.90159 1.45336 4.44236 1.63201 2.9259C1.75584 1.8723 2.00758 1.56576 2.18623 1.42568C2.47246 1.20238 2.99013 1.12523 3.68238 1.07854C4.79486 1.0014 6.67469 0.956737 8.71491 0.956737C10.7551 0.956737 12.637 1.0014 13.7495 1.07854C14.4417 1.12523 14.9594 1.20238 15.2456 1.42568C15.4243 1.56576 15.676 1.8723 15.7998 2.9259C15.9785 4.44236 15.9785 7.90159 15.7998 9.41805H15.7978Z"
+                        fill="white" />
+                </svg>
+            </div>
+
+
+
+    </header>
+
+
+    <nav class="navegação">
+
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+
     </nav>
-    <div class="corpo">
-        <!----------Imagens------>
-        <img src="wanderlust.webp" alt="wanderlust">
-        <img src="pessoas.webp" alt="pessoas">
 
-        <p class="texto1">
 
-            Somos viajantes profissionais e apaixonados pelo mundo. Já vivemos experiências incríveis como nadar com
-            tartarugas gigantes nas Maldivas, andar em elefantes no Sri Lanka e andar de trem na Índia! E como esquecer
-            um
-            voo de balão na Capadócia, ou uma semana velejando nas Ilhas Gregas? Um almoço em frente ao vulcão no
-            deserto de
-            sal na Bolívia, uma semana de baladas em Las Vegas, ou voltar no tempo se hospedando em um verdadeiro burgo
-            medieval! São todas experiências incríveis que passamos a compartilhar desde 2016 no Blog Criança Também
-            Viaja!
-            Podemos ajudar você a realizar o seu sonho. Nosso inovador serviço de concierge lhe proporciona a
-            possibilidade
-            de ter acesso a um gerenciamento exclusivo de milhas além da criação de roteiros e reservas de tudo que você
-            precisar na
-            sua viagem.
-        </p>
-
-        <img src="paisagem.webp" alt="paisagem">
-        <img src="icone pequeno.webp" alt="icone">
-    </div>
-    <footer class="baixo">
-        <p>
-            |'Wän-der-luhst| s.
-
-            def. desejo incontrolável de viajar e explorar o mundo
-        </p>
-        <img src="cadastrur.webp" alt="cadastrur">
-        <p class="registros">
-            CNPJ 30.504.497/0001-46
-
-            Alameda das Amendoeiras, 3 - Jardim Botânico
-
-            Brasília-DF CEP 71.684-624
-
-            ©2018 Wanderlust Concierge de Viagens
-            <a class="politica"
-                href="https://www.wanderlustconcierge.com.br/pol%C3%ADtica-de-entrega-e-reembolso">Políticas de
-                cancelamento, reembolso e entrega</a>
-        </p>
-    </footer>
 </body>
 
 </html>

@@ -1,0 +1,18 @@
+:root {
+    --primary-color:#102D49;
+    --secundary-color:#8F9EBA;
+    --action-color:#8FD1BE;
+    --action-color-secundary:#E6A040;
+}
+
+p {
+    color: var(--primary-color);
+}
+
+.container {
+    margin: 0 115px;
+}
+
+body {
+    background-color: var(--primary-color);
+}
